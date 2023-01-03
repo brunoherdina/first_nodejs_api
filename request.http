@@ -1,0 +1,31 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name" : "Caneta azul",
+    "price" : 10.90
+}
+
+###
+
+GET http://localhost:4002/products
+
+
+###
+
+GET http://localhost:4002/products/667941ac-7e24-49c3-9ba2-e31127333b92
+
+###
+
+PUT http://localhost:4002/products/53213bda-1f49-4dee-81bb-d1c5519208bc
+content-type: application/json
+
+{
+    "name" : "Maça do amor promocional",
+    "price" : 20.89
+}
+
+###
+
+DELETE http://localhost:4002/products/667941ac-7e24-49c3-9ba2-e31127333b92
+
